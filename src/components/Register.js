@@ -69,7 +69,7 @@ class Register extends Component {
 
             <div className="pasword">
               <input
-                type="password"
+                type="password" 
                 placeholder="Mobile No"
                 name="mobileno"
                 value={this.state.password}

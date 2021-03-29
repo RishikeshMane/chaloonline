@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-class Register extends Component {
+class admin extends Component {
   constructor(props) {
     super(props);
 
@@ -77,6 +76,17 @@ class Register extends Component {
               />
             </div>
 
+            <div className="password">
+              <input
+                type="password"
+                placeholder="Sponser ID"
+                name="sponserID"
+              />
+            </div>
+            <div className="password">
+              <input type="text" placeholder="Sponser Name" name="sponserID" />
+            </div>
+
             <input className="reg" type="submit" value="Register" />
           </form>
           <Link to="/login" id="regli">
@@ -87,5 +97,4 @@ class Register extends Component {
     );
   }
 }
-
-export default Register;
+export default admin;
